@@ -1,0 +1,36 @@
+{
+  "name": "haste-webpack-resolver-plugin",
+  "version": "1.0.0",
+  "description": "Haste resolver plugin for webpack 2",
+  "main": "index.js",
+  "scripts": {
+    "push": "git push --tag origin master:master",
+    "bump": "bump --prompt --commit --tag --push --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitzpick/haste-webpack-resolver-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "ErikMikkelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blitzpick/haste-webpack-resolver-plugin/issues"
+  },
+  "homepage": "https://github.com/blitzpick/haste-webpack-resolver-plugin#readme",
+  "dependencies": {
+    "enhanced-resolve": "3.1.0",
+    "lodash": "4.17.4",
+    "object-assign": "4.1.1"
+  },
+  "devDependencies": {
+    "jest": "20.0.4",
+    "version-bump-prompt": "3.1.2"
+  },
+  "peerDependencies": {
+    "webpack": "2.6.1"
+  }
+}
